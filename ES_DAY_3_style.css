@@ -1,0 +1,160 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif; */
+body{
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    color: rgba(32,126,126,255);
+}
+
+a:hover{
+    color: violet;
+}
+
+h2{
+    font-weight:400;
+    border-bottom: 2px solid rgba(32,126,126,255);
+    padding-bottom: 20px;
+}
+
+/* a:visited {
+    color: bisque;
+} */
+
+/*---------------------------------HEATHER-------------------------------------*/
+#logoPagina{
+    
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+
+}
+
+.sottotilopag{
+    width: 100%;
+    height: 45px;
+    background-color: rgba(253,251,241,255);
+    border-top: solid 2px rgba(255,219,131,255);
+}
+
+.sottotilopag p {
+    font-size: 15px;
+    color: rgba(0,77,76,255);
+    text-align: center;
+}
+
+
+.sottotilopag a {
+    text-transform: uppercase;
+    color: rgba(0,77,76,255);
+    text-decoration: none;
+}
+
+.sottotilopag a:hover{
+    color: violet;
+}
+
+
+
+/* .sottotilopag a:visited{
+    color: bisque;
+} */
+
+
+
+/*---------------------------------MAIN-------------------------------------*/
+
+
+    /*--------------------------.APERTURA-----------------------------------*/
+    main{
+        width: 50%;
+        margin: 0 25% 0 25%;
+    }
+
+    .apertura h1 {
+        text-align: center;
+        font-size: 2em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    
+
+
+
+    .apertura video{
+        
+        border-radius: 20px;
+        width: 100%;
+        height: 480px;
+        box-shadow: 6px 3px 10px grey;
+    }
+
+    .apertura figcaption{
+        margin-top: 10px;
+        text-align: center;
+        color: grey;
+    }
+
+    /*------------------------ASIDE / suggerimenti-----------------------------------------*/
+
+    aside{
+        border-left: 2px solid orange;
+        margin-top: 30px;
+    }
+
+    aside h4{
+        text-transform: uppercase;
+        font-size: 1em;
+        margin:0;
+        color: rgba(181,70,15,255);
+    }
+
+    aside p{
+        font-size: 0.8em;
+        margin: 0 auto 40px auto;
+
+    }
+
+    /*------------------------.INGREDIENTI-----------------------------------------*/
+
+    
+
+    .titoliIngredienti {
+        font-weight: bold;
+    }
+
+    .ingredienti li {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    /*----------------------------PREPARAZIONE--------------------------------------------*/
+
+    .preparazione h2{
+        margin-top: 30px;
+    }
+
+    .preparazione h5{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .preparazione p {
+
+    font-size: 12px ;
+    margin-left: 30px;
+    }
+
+    /*--------------FOOTER--------------------*/
+
+    footer{
+        width: 50%;
+        margin: 20px 25% 0 25%;
+        font-size: 12px;
+    }
+
+
